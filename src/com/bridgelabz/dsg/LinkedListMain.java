@@ -1,5 +1,5 @@
-/**UC7 : PROBLEM STATEMENT
-/ *Ability to search LinkedList to find Node with value 30 - Write Junit Test Case as demonstrated in class - Loop through LinkedList to find node with key 30 
+/**UC8 : PROBLEM STATEMENT
+/ *Inserting Node After Searching
  * @author Suraj Chaudhary
  * @date 25-Feb-2022
  */
@@ -17,6 +17,7 @@ public class LinkedListMain {
 		System.out.println("Enter 4 to delete data of first node");
 		System.out.println("enter 5 to delete data of last node");
 		System.out.println("Enter 6 to find index number,node with value 30 in linked list");
+		System.out.println("Enter 7 to Add data after searching required data");
 		switch (scanner.nextInt()) {
 		case 1:
 			Operations.addDataAtStart();
@@ -35,6 +36,10 @@ public class LinkedListMain {
 			break;
 		case 6:
 			Operations.findNodeBasedOnValue();
+			break;
+		case 7:
+			Operations.insertAfterSearchNode();
+			break;
 		}
 
 	}
