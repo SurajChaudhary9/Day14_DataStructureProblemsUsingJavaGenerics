@@ -1,5 +1,5 @@
-/**UC1 : PROBLEM STATEMENT
- * Lets create a simple Linked List of 56, 30 and 70
+/**UC2 : PROBLEM STATEMENT
+ * Lets create a simple Linked List of 56, 30 and 70 Added first
  * @author Suraj Chaudhary
  * @date 25-Feb-2022
  */
